@@ -5,6 +5,10 @@ void setup(){
   println(Signe.name);
   println(Anders.name + Anders.age + Anders.datamatikerTeam);
   println(Noah.name + Noah.age + Noah.isFemale);
-  
- boolean isclassmates= isClassmates(Anders.datamatikerTeam, Noah.datamatikerTeam);
+}
+boolean isclassmates = isClassmates(Anders.datamatikerTeam, Noah.datamatikerTeam);
+if(isclassmates==true){
+println("they are classmates");
+} else {
+	println("they are not classmates");
 }
